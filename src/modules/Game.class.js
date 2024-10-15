@@ -1,5 +1,12 @@
 'use strict';
 class Game {
+  static gameStatus = {
+    idle: 'idle',
+    playing: 'playing',
+    win: 'win',
+    lose: 'lose',
+  };
+
   constructor(
     initialState = [
       [0, 0, 0, 0],
@@ -8,12 +15,6 @@ class Game {
       [0, 0, 0, 0],
     ],
   ) {
-    this.gameStatus = {
-      idle: 'idle',
-      playing: 'playing',
-      win: 'win',
-      lose: 'lose',
-    };
     this.initialState = initialState;
     this.score = 0;
     this.status = Game.gameStatus.idle;
@@ -58,8 +59,8 @@ class Game {
         }
 
         if (
-          (row < 3 && cellValue === this.state[row + 1][col])
-          || (col < 3 && cellValue === this.state[row][col + 1])
+          (row < 3 && cellValue === this.state[row + 1][col]) ||
+          (col < 3 && cellValue === this.state[row][col + 1])
         ) {
           canMove = true;
         }
