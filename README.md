@@ -13,11 +13,8 @@ The **2048 Game** is a classic sliding puzzle game implemented in JavaScript. Th
 ## Folder Structure
 - `index.html`: Main HTML file
 - `/styles`: Contains the SCSS source files
-  - `style.scss`
 - `/scripts`: Contains the JavaScript files
-  - `game.js`
 - `/modules`: Contains the game logic
-  - `Game.class.js`
 - `/images`: Contains any images used in the game
 
 ## Features
