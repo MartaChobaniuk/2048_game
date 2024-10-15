@@ -1,5 +1,4 @@
-## DEMO LINK
-[https://martachobaniuk.github.io/2048_game/]
+## DEMO LINK[https://martachobaniuk.github.io/2048_game/]
 
 # 2048 Game
 The **2048 Game** is a classic sliding puzzle game implemented in JavaScript. The objective is to combine tiles with the same numbers until you reach the 2048 tile. This project is built with a focus on clean code and maintainability.
