@@ -170,6 +170,7 @@ class Game {
   start() {
     this.status = Game.gameStatus.playing;
     this.getRandomCell();
+    this.getRandomCell();
   }
 
   restart() {
